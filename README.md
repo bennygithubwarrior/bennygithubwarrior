@@ -1,8 +1,8 @@
 Overview
 -
 
-This github is our foundation for our AI assignment, showcasing contributions from various team members. 
-It includes implementations of informed search algorithms (Greedy Best-First & A* Search) for maze-solving, and Simulated Annealing for optimizing the Traveling Salesperson Problem (TSP). 
+This github is our foundation for our AI assignment.
+It includes implementations of informed search algorithms (Greedy Best-First & A* Search) for maze-solving, Simulated Annealing for optimizing the Traveling Salesperson Problem (TSP) and 
 The repo tracks our contributions to the project.
  
 
