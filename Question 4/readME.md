@@ -3,7 +3,6 @@ Question 4: Gridworld Q-Learning
 
 Description
 -
-
 Applies Q-learning to a 5×5 Gridworld with two special teleport states (A and B). Trains an agent using ε-greedy policy and displays the optimal value function and policy.
 
 
@@ -36,14 +35,19 @@ Notebook mode:
 
 Project Overview
 -
+Environment: teleport logic for A and B, boundary penalties for off-grid moves
 
-• Environment: teleport logic for A and B, boundary penalties for off-grid moves
-• Q-learning:
-– choose_action(): ε-greedy action selection
-– train(): Bellman update over episodes
-• Policy extraction: derive V(s) = max_a Q(s,a), and greedy policy in both word and arrow formats
+Q-learning:
+choose_action(): ε-greedy action selection
+train(): Bellman update over episodes
+
+Policy extraction: derive V(s) = max_a Q(s,a), and greedy policy in both word and arrow formats
+
+
 Outputs
-• Console logs of training progress
-• Printed optimal value function and policy grids matching theoretical quantities in Figure 2
+-
+Console logs of training progress
+
+Printed optimal value function and policy grids matching theoretical quantities in Figure 2
 
 
