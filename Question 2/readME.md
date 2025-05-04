@@ -42,9 +42,12 @@ Project Overview
 TSP class: stores list of town names and a distance matrix; method total_distance(route) computes the sum of distances
 
 SimulatedAnnealingSolver class:
-– _initial_route(): generates random permutation fixing Windhoek as start and end
-– _neighbor(): produces candidate by swapping two intermediate towns
-– solve(): applies Metropolis acceptance criterion at temperature T, cools by factor alpha, records best route and cost history
+
+_initial_route(): generates random permutation fixing Windhoek as start and end
+
+_neighbor(): produces candidate by swapping two intermediate towns
+
+solve(): applies Metropolis acceptance criterion at temperature T, cools by factor alpha, records best route and cost history
 
 Brute-force snippet: verifies optimal route on a 5-town subset for comparison
 
